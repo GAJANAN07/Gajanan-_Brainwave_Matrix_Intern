@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0a2ee0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .time-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .hour {
+    width: 80px;
+    padding: 10px;
+    background: #aadf19;
+    text-align: center;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #960376;
+  }
+  
+  .saveBtn {
+    padding: 10px;
+    background: #007bff;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .past {
+    background-color: #c40606;
+  }
+  
+  .present {
+    background-color: #ff6961;
+  }
+  
+  .future {
+    background-color: #77dd77;
+  }
+  
